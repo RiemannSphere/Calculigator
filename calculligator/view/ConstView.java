@@ -20,7 +20,7 @@ import javafx.scene.text.Font;
 public class ConstView {
 	private static final Dimension SCREEN = Toolkit.getDefaultToolkit().getScreenSize();
 
-	public static final String APP_TITLE = "Calculligator";
+	public static final String APP_TITLE = "Calculigator";
 	public static final Double APP_WIDTH = SCREEN.getWidth() * 0.15;
 	public static final Double APP_HEIGHT = APP_WIDTH * 1.618;
 
@@ -34,7 +34,7 @@ public class ConstView {
 			new BackgroundFill(KEY_COLOR, KEY_CORNERS, Insets.EMPTY));
 	public static final String KEY_IMAGE = "/res/pattern.jpg";
 	public static final String BORDER_COLOR = "rgb(28, 28, 28)";
-	public static final Font KEY_FONT = Font.font("DejaVu Sans Mono", 22);
+	public static final Font KEY_FONT = Font.font("DejaVu Sans Mono", 20);
 	public static final Font RESULT_FONT = Font.font("DejaVu Sans Mono", 24);
 
 	public static final Double KEY_SIZE = APP_WIDTH / KEYBOARD_COLS;
